@@ -8,8 +8,8 @@ github.com/gorilla/securecookie v1.1.1 h1:miw7JPhV+b/lAHSXz4qd/nN9jRiAFV5FwjeKyC
 github.com/gorilla/securecookie v1.1.1/go.mod h1:ra0sb63/xPlUeL+yeDciTfxMRAA+MP+HVt/4epWDjd4=
 github.com/gorilla/sessions v1.2.1 h1:DHd3rPN5lE3Ts3D8rKkQ8x/0kqfeNmBAaiSi+o7FsgI=
 github.com/gorilla/sessions v1.2.1/go.mod h1:dk2InVEVJ0sfLlnXv9EAgkf6ecYs/i80K/zI+bUmuGM=
-github.com/jdhenke/gcloud v0.0.0-20221001172242-58ae24e3cc95 h1:GVLzbqB/NZQe+unQQDwQoPA3eikfScMCqPS2utIhzcE=
-github.com/jdhenke/gcloud v0.0.0-20221001172242-58ae24e3cc95/go.mod h1:H96yzuRJONyr/MUPiDCrSgb5RBCZsxARDSW9cF6YF2g=
+github.com/jdhenke/gcloud v0.1.0 h1:cuj1VUsIk51HsoCXiAzm4SmWFHTPc+hNDD733/NbNzg=
+github.com/jdhenke/gcloud v0.1.0/go.mod h1:H96yzuRJONyr/MUPiDCrSgb5RBCZsxARDSW9cF6YF2g=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/net v0.0.0-20190603091049-60506f45cf65/go.mod h1:HSz+uSET+XFnRR8LxR5pz3Of3rY3CfYBVs4xY44aLks=
 golang.org/x/net v0.0.0-20220624214902-1bab6f366d9e h1:TsQ7F31D3bUCLeqPT0u+yjp1guoArKaNKmCr22PYgTQ=

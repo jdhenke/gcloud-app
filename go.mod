@@ -2,7 +2,7 @@ module github.com/jdhenke/gcloud-app
 
 go 1.19
 
-require github.com/jdhenke/gcloud v0.0.0-20221001172242-58ae24e3cc95
+require github.com/jdhenke/gcloud v0.1.0
 
 require (
 	github.com/golang/protobuf v1.5.2 // indirect
