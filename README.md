@@ -72,3 +72,5 @@ open ${EXTERNAL_URI}
 You can logout by going to `${EXTERNAL_URI}/logout`.
 
 10. Finally verify that only your coworkers have access to the application by trying to login using a Google account that is not part of the Google workspace. You should get a screen from Google that says "Access blocked: <app name> can only be used within its organization."
+
+11. You can select and delete the project you just created in [Cloud Resource Manager](https://console.cloud.google.com/cloud-resource-manager) to guarantee you are not billed for any latent resources laying around.
