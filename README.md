@@ -1,11 +1,13 @@
 # gcloud app
-Instructions for deploying a Go app protected by G Suite OAuth via Google Cloud Run so only your coworkers can access it.
+Starter app and instructions for deploying a Go app protected by G Suite OAuth via Google Cloud Run so only your coworkers can access it.
 
 ## Setup
 
+Clone this repo and run the following commands from within the repo as a starting point.
+
 1. Install the [`gcloud` CLI](https://cloud.google.com/sdk/docs/install)
 2. [Create gcloud Project](https://console.cloud.google.com/projectcreate)
-3. Ensure you have selected your new project in the top left, then note the **"Project ID"** under the "Project info" panel.
+3. Ensure you have selected your new project in the top left, then note the **Project ID** under the "Project info" panel.
 
 ```bash
 export PROJECT_ID="FIXME"
@@ -47,7 +49,7 @@ echo $EXTERNAL_URI
     - You may need select "Credentials" on the left and "+ New Credentials" again
     - Select "Web application" for application type
     - Run `echo ${EXTERNAL_URI}/auth/redirect` and use the output as an "Authorized redirect URIs"
-    - and note the **Client ID** and **Client Secret**
+    - Note the **Client ID** and **Client Secret**
 
 ```bash
 export OAUTH_CLIENT_ID="FIXME"
