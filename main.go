@@ -21,5 +21,5 @@ func main() {
 	mux.Handle("/", auth.RequireAuth(http.HandlerFunc(func(rw http.ResponseWriter, r *http.Request) {
 		_, _ = fmt.Fprintln(rw, "Hello", auth.GetSession(r.Context()).Email)
 	})))
-	panic(http.ListenAndServe(":8000", mux))
+	panic(http.ListenAndServe(":"+os.Getenv("PORT"), mux))
 }
